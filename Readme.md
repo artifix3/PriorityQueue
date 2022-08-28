@@ -18,6 +18,18 @@ Enqueue uses for inserting element in front of queue. Dequeue and peek is works 
  Finally we comes Priority Queue. Let's think like that we have a problem. Problem is we will have a lot of patients and we must to find which of them will go to first to room of our doctor. Every patient have one problem . And every problem can have priority level. For this problem we can use stack , queue . But they will not efficient . Maybe we can use list also . But is not will efficient also. But Priority Queue will efficient for us. Because we will enter patients with priority level . And our queue will be sorted by priority level . That is all we solved problem.  All common functions is same as queue methods. We can use priority queue many type of problems as I mentioned . 
 
 
+## **HashSet<T>** 
+
+Like another types it is resizable. It means if we add or remove element the size will be change automatically. HashSet is not ordered data type. So the elements which are inserted by us can not garantuated indexing. HashSet indexing doing with HashCode.HashSet can not give permission using same elements. Searching any element is very fast in HashSet’s. It is O(1). Methods of hashset.
+1) Add is using to insert element. Return true and false value. If there is have a duplicate element return false else return true .
+2) Remove is using for removing element .
+3) Remove Where is using for deleting all elements which are is appropriate with our conditions.
+4) Contains is same as stack ,queue method.
+[Hash Set ](https://github.com/artifix3/HashSet)
+ 
+
+
+
 
 ## **Conclusion** 
 Priority have same idea as queue and stack . But In this data structure all items will have priority level
